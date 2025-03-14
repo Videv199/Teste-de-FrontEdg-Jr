@@ -22,10 +22,6 @@ Um navegador atualizado (Google Chrome, Firefox, Edge, etc.)
 
 🔧 Como Rodar o Projeto
 
-1️⃣ Clone o Repositório
-
-git clone https://github.com/seu-usuario/projeto-ecommerce.git
-cd projeto-ecommerce
 
 2️⃣ Abra o Arquivo HTML
 
