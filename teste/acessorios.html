@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja Online</title>
+    <link rel="stylesheet" href="../teste/src/style.css">
+    <link rel="icon" type="image/png" href="./icon/pessoa.png">
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#">CELULAR</a></li>
+            <li><a href="#">ACESSÓRIOS</a></li>
+            <li><a href="#">TABLETS</a></li>
+            <li><a href="#">NOTEBOOKS</a></li>
+            <li><a href="#">TVS</a></li>
+            <li><a href="#">VER TODOS</a></li>
+        </ul>
+    </nav>
+
+    <h2>Produtos relacionados</h2>
+    <div class="product-container">
+        <div class="card">
+            <img src="../teste/img/redmin1.jpg" alt="Produto">
+            <div class="card-body">
+                <h5 class="card-title">iPhone 13 Pro</h5>
+                <p class="card-price">R$ 28,90</p>
+                <p class="card-text">compre seu produto</p>
+                <button class="btn">COMPRAR</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="../teste/img/moto.jpg" alt="Produto">
+            <div class="card-body">
+                <h5 class="card-title">Moto G84 5G 8GB</h5>
+                <p class="card-price">1.377,21</p>
+                <p class="card-text">compre seu produto</p>
+                <button class="btn">COMPRAR</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="../teste/img/iphone.jpg" alt="Produto">
+            <div class="card-body">
+                <h5 class="card-title">iPhone 16 Pro</h5>
+                <p class="card-price">R$ 9.299.00</p>
+                <p class="card-text">compre seu produto</p>
+                <button class="btn">COMPRAR</button>
+            </div>
+        </div>
+    </div>
+    <!-- Modal de Confirmação -->
+    <div id="confirm-modal" class="modal">
+        <div class="modal-content">
+            <img id="modal-img" src="" alt="Produto" class="modal-img">
+            <p id="modal-text">Deseja mesmo comprar este item?</p>
+            <button id="confirm-btn">Sim</button>
+            <button id="cancel-btn">Cancelar</button>
+        </div>
+    </div>
+
+
+    <script src="../teste/codigo/acessario.js"></script>
+</body>
+</html>
